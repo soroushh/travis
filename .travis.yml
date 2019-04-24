@@ -6,4 +6,5 @@ rvm:
 - rbx-2
 script:
   - bundle install - jobs=1 - retry=1
-  - rspec
+  - bundle exec rspec
+  
